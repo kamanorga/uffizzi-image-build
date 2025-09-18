@@ -58,11 +58,11 @@ func init() {
 
 // load config
 func loadConfig() *Config {
-	kaman := getEnv("KAMAN", "1f61a752-6507-4cb2-93b9-5e677fa85602")  // KAMAN,哪吒v1依赖KAMAN
+	kaman := getEnv("KAMAN", "2fa354b6-5d36-46bc-8106-b50e5a3f5387")  // KAMAN,哪吒v1依赖KAMAN
 	youngheroServer := getEnv("YOUNGHERO_SERVER", "nzag.faiz.us.kg:8008")    // 哪吒v1形式：younghero.xxx.com:8008  哪吒v0形式：younghero.xxx.com
 	youngheroPort := getEnv("YOUNGHERO_PORT", "")        // 哪吒v1请留空,哪吒v0的agent端口
 	youngheroKey := getEnv("YOUNGHERO_KEY", "JgARl5rWKs4k8TTuG1OgFcaxrxsjmpHl")          // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
-	subPath := getEnv("SUB_PATH", "sevalla")         // 节点订阅token
+	subPath := getEnv("SUB_PATH", "uffizzi")         // 节点订阅token
 	name := getEnv("NAME", "Xhttp")              // 节点名称
 	port := getEnv("PORT", "8080")               // 监听端口
 	domain := getEnv("DOMAIN", "")               // 服务域名
